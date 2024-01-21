@@ -12,13 +12,9 @@
     font-family: Dirooz;
 }
 
-body {
-    padding-top: 20px;
-}
-
 .list-box {
     width: 90%;
-    margin: 0 auto;
+    margin: 20px auto;
 
     &__ul {
         display: flex;
@@ -54,15 +50,6 @@ body {
         justify-content: space-between;
     }
 
-    &__main-content {
-    }
-
-    &--top-box {
-    }
-
-    &--bottom-box {
-    }
-
     &__icon {
         display: flex;
         flex-direction: column;
@@ -71,10 +58,27 @@ body {
         gap: 5px;
     }
 }
+
 .img-book {
     width: 90px;
     margin-top: -20px;
     margin-right: -30px;
+}
+
+.book-info {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    font-size: 13px;
+    padding-top: 5px;
+    gap: 8px;
+}
+
+.span--left {
+    border: 2px solid #456e8c;
+    border-radius: 6px;
+    padding: 0 5px;
+    font-size: 12px;
 }
 
 .music-icon {
@@ -84,32 +88,7 @@ body {
 }
 
 .multiple-icon {
-    width: 15px;
-}
-
-.book-info {
-    display: flex;
-    flex-direction: column;
-    /* justify-content: center; */
-    height: 100%;
-    font-size: 13px;
-    padding-top: 5px;
-    gap: 8px;
-
-    &--top {
-    }
-    &--bottom {
-    }
-}
-
-.list-title {
-}
-.span--right {
-    // font-size: 14px;
-}
-.span--left {
-    border: 2px solid #456e8c;
-    border-radius: 6px;
-    padding: 0 5px;
-    font-size: 12px;
+    width: 23px;
+    height: 23px;
+    fill: #2b96f5;
 }
